@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="204dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/maintitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/md11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/md11"
+        app:layout_constraintBottom_toBottomOf="@+id/md21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/md21" />
+
+    <Button
+        android:id="@+id/md14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md14"
+        app:layout_constraintStart_toStartOf="@+id/md13"
+        app:layout_constraintTop_toBottomOf="@+id/md13" />
+
+    <Button
+        android:id="@+id/md15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md15"
+        app:layout_constraintStart_toStartOf="@+id/md14"
+        app:layout_constraintTop_toBottomOf="@+id/md14" />
+
+    <Button
+        android:id="@+id/md16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md16"
+        app:layout_constraintStart_toStartOf="@+id/md15"
+        app:layout_constraintTop_toBottomOf="@+id/md15" />
+
+    <Button
+        android:id="@+id/md21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/md21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/md22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md22"
+        app:layout_constraintStart_toStartOf="@+id/md21"
+        app:layout_constraintTop_toBottomOf="@+id/md21" />
+
+    <Button
+        android:id="@+id/md23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md23"
+        app:layout_constraintStart_toStartOf="@+id/md22"
+        app:layout_constraintTop_toBottomOf="@+id/md22" />
+
+    <Button
+        android:id="@+id/md12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md12"
+        app:layout_constraintStart_toStartOf="@+id/md11"
+        app:layout_constraintTop_toBottomOf="@+id/md11" />
+
+    <Button
+        android:id="@+id/md13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/md13"
+        app:layout_constraintStart_toStartOf="@+id/md12"
+        app:layout_constraintTop_toBottomOf="@+id/md12" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/md"
+        app:layout_constraintBottom_toTopOf="@+id/md11"
+        app:layout_constraintStart_toStartOf="@+id/md11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/md2"
+        app:layout_constraintBottom_toTopOf="@+id/md21"
+        app:layout_constraintStart_toStartOf="@+id/md21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

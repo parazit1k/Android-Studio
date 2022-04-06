@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">General-v1.0</string>
+    <string name="maintitle">
+        Телицын Егор
+        Практики 2022
+    </string>
+    <string name="back">Назад</string>
+    <string name="md">MD1</string>
+    <string name="md2">MD2</string>
+    <string name="md11">MD1.1</string>
+    <string name="md12">MD1.2</string>
+    <string name="md13">MD1.3</string>
+    <string name="md14">MD1.4</string>
+    <string name="md15">MD1.5</string>
+    <string name="md16">MD1.6</string>
+    <string name="md21">MD2.1</string>
+    <string name="md22">MD2.2</string>
+    <string name="md23">MD2.3</string>
+
+
+    // md12
+
+    <string name="click">Нажми меня</string>
+    <string name="counter">Кликов: 0</string>
+    <string name="minus">Минус</string>
+
+    //md13
+
+    <string name="tr">Отгадать</string>
+    <string name="trytoguess">Напиши число</string>
+
+    //md14
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+
+    //md15
+
+    <string name="easy">Просто</string>
+    <string name="medium">Средне</string>
+    <string name="hard">Тяжело</string>
+
+    //md23
+
+    <string name="go">Перейти</string>
+    <string name="link">Напиши URL</string>
+
+</resources>
